@@ -1,5 +1,5 @@
 .mainNav{
-    background-color: #404040;
+    background-color: rgb(51,53,69);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -61,10 +61,10 @@
     padding: 0;
     margin: 0;
     color: white;
-    background-color: #404040;
+    background-color: #222539;
     border: 1px solid black;
     border-radius: 4px;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
 }
 
 .personLogoutBtn{

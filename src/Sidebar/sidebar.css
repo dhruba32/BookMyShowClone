@@ -10,7 +10,7 @@
     padding-top: 20px;
     border-right: 1px solid black;
     font-family: 'Noto Sans Tangsa', sans-serif;
-    background-color: white;
+    background-color: #222539;
     /* text-align: center; */
 }
 
@@ -22,6 +22,7 @@ li{
 .sidenavHeading{
     text-align: center;
     margin-bottom: 1rem;
+    color: white;
     /* font-family: 'Noto Sans Tangsa', sans-serif; */
 }
 
@@ -38,7 +39,7 @@ ul{
 
 .inactive {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: x-large;
     padding: 0rem 0.5rem;
     line-height: 3rem;
@@ -46,6 +47,8 @@ ul{
 
 .active {
     color: black;
+    background-color: white;
+    border-radius: 5px;
     text-decoration: none;
     border-bottom: 2px solid gray;
     box-shadow: -5px 12px 9px -2px rgb(169 169 169 / 48%);

@@ -2,11 +2,11 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 import Sidebar from './Sidebar/Sidebar';
 import Mainsection from './Mainsection/Mainsection';
-import SignUp from './Login/SignUp';
+
 import PaymentPage from './Payment/PaymentPage';
 import { useState } from 'react';
 import MyTest from './MyTest';
-import LoginPage from './Login/LoginPage';
+
 import LandingPage from './LandingPage/LandingPage';
 import { Routes, Route } from 'react-router-dom';
 import SeatBooking from './Seating/SeatBooking';
@@ -31,7 +31,7 @@ function App() {
       <Route path='/:id' element={ <MainWithId /> } />
       <Route path='/:moviename/:price' element={ <SeatBooking  /> } />     
       <Route path='/:moviename/:price/:numberOfTickets' element={<PaymentPage />} />
-      <Route path='/login' element={<LoginPage />}/>
+     
       <Route path='/search/:searchMovie' element={ <ShowSearchResult />} />
     </Routes>
   );

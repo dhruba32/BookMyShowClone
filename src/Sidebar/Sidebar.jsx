@@ -24,7 +24,7 @@ const Sidebar = () => {
     return(
         <>
             <div class="sidenav">
-                <h1 className='sidenavHeading'>Genres</h1>
+                <h1 className='sidenavHeading'>Category</h1>
                 <ul><GetGenres genre={genre}/></ul>
             </div>
         </>

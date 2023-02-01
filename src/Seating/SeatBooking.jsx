@@ -28,16 +28,16 @@ const SeatBooking = () => {
     return (
         <div className="seatBooking-container" >
             <div className="heading">
-                <h1><u>Book Ticket</u></h1>
+                <h1><u>BookMyShow</u></h1>
             </div>
             <div className="booking-details" >
                 <div className="cinema" >
                     <label for="cinema-name" >Cinema</label>
                     <select id="cinema-name" >
                         <option value="" hidden selected>Select Cinema</option>
-                        <option value="wave" >Wave Priya Mall, Kashipur</option>
-                        <option value="cinepolis" >PRV Pacific Mall, Dehradun</option>
-                        <option value="singapurmall" >PVR WalkWay, Haldwani</option>
+                        <option value="wave" >Cinepolis: Central Mall, Guwahati</option>
+                        <option value="cinepolis" >PVR: City Centre, Guwahati</option>
+                        <option value="singapurmall" >Grande Cines: Guwahati</option>
                     </select>
                 </div>
                 <div className="booking-date" >

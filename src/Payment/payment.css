@@ -24,6 +24,7 @@
     padding: 10px;
     height: auto;
     width: 20%;
+    border-radius: 5px;
 }
 
 .paymentCard{
@@ -34,6 +35,7 @@
     padding: 15px;
     padding-right: 27px;
     height: 50%;
+    border-radius: 5px;
 }
 
 .ticketTypeAndPrice{
@@ -70,6 +72,7 @@
     height: auto;
     width: 100%;
     justify-content: space-evenly;
+    
 }
 
 .field{
@@ -79,13 +82,18 @@
 
 .payBtn{
     color: white;
-    background-color: rgb(49, 108, 244);
+    background-color: dodgerblue;
     border: none;
     border-radius: 6px;
     font-size: x-large;
     padding: 6px;
     width: 102%;
     margin-top: 18px;
+}
+.payBtn:hover{
+    background-color: rgb(234, 227, 227);
+    
+    
 }
 
 .fullNameWarning{

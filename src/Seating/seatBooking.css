@@ -8,6 +8,7 @@
     margin: 0.8rem;
     display: flex;
     flex-direction: column;
+    background-color: #F5F5FA;
 }
 
 .booking-details {
@@ -125,7 +126,7 @@
     margin-top: 0.8rem;
     height: 10vh;
     transform: skew(45deg);
-    background-image: linear-gradient(rgb(30,168,60),rgb(3, 198, 252));
+    /* background-image: linear-gradient(rgb(30,168,60)); */
     /* background-color: ; */
     border: none;
 }
@@ -158,9 +159,9 @@
 
 .booking-btn{
     padding: 0.4rem;
-    background-color: #405cf5;
+    background-color: dodgerblue;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -171,6 +172,10 @@
     text-transform: none;
     transform: translateZ(0);
     transition: all .2s,box-shadow .08s ease-in;
+}
+.booking-btn:hover{
+    background-color: white;
+    color: dodgerblue;
 }
 
 .booking-btn:focus {
@@ -184,4 +189,6 @@
 
 .heading{
     margin-bottom: 1.2rem;
+    color: rgb(80, 24, 24);
 }
+
